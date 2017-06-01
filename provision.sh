@@ -11,7 +11,7 @@ sudo yum install -y gcc
 wget http://www.sqlite.org/2017/sqlite-autoconf-3190200.tar.gz
 tar zxfv sqlite-autoconf-3190200.tar.gz
 cd sqlite-autoconf-3190200
-./configure --prefix=/usr/local
+./configure --prefix=/usr/local --enable-json1
 make
 make install
 sudo make install
