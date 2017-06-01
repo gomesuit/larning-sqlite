@@ -23,3 +23,6 @@ sqlite3 sample.sqlite
 # 設定情報を表示する
 .show
 ```
+
+- 参考
+  - http://qiita.com/smith/items/c0bd002666a23a6fe8e4
